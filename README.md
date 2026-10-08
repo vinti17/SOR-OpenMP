@@ -2,7 +2,7 @@
 
 A red-black successive over-relaxation (SOR) solver for the Poisson problem with periodic boundary conditions, written in C in a sequential and an OpenMP version, together with a performance study of both.
 
-This was a two-person project for the Parallel Computing course at Radboud University. The solver builds on the starter code provided by the course (`util.h` and the original sequential solver); our contributions are the tiling of the loops, the OpenMP parallelization and the measurements.
+This was a project for the Parallel Computing course at Radboud University. The solver builds on the starter code provided by the course (`util.h` and the original sequential solver); my contributions are the tiling of the loops, the OpenMP parallelization and the measurements.
 
 ## Repository Contents
 
@@ -14,7 +14,7 @@ This was a two-person project for the Parallel Computing course at Radboud Unive
 
 A brief overview is provided below. The full report at `docs/report.pdf` contains more detail on the methodology, the convergence behavior and the analysis.
 
-## What We Wanted to Find Out
+## What I Wanted to Find Out
 
 - How much faster does the solver get with OpenMP, and for which grid sizes?
 - What limits the speedup: thread overhead, the number of cores, or memory?
