@@ -1,0 +1,26 @@
+Tiling comparison on the 512 x 512 grid, 1000 iterations.
+Both programs compiled with: gcc -O3 -march=native ... -lm
+Run directly after each other on the same machine.
+
+== n=512 starter code (untiled), 10 separate runs
+   command: ./sor_starter 512 1000
+   output:  bandwidth in GB/s, one line per run
+21.443338
+26.412394
+31.767961
+26.648233
+26.138810
+31.896328
+26.444474
+25.558819
+25.870202
+26.325283
+
+== n=512 sor_seq (tiled), 10 solves in one run
+   command: ./sor_seq 512 1000
+Bandwidth: 19.154 GB/s
+Compute rate: 8.779 GFLOPS
+Relative error: 1.861e-02
+Iterations per run: 1000
+19.154
+Time per run (10 runs): 0.328461 s avg, 0.002853 s stddev

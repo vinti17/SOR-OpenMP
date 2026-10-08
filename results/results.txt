@@ -1,0 +1,75 @@
+== n=64 seq
+Relative error: 8.036e-04
+Time per run (10 runs): 0.003702 s avg, 0.002421 s stddev
+== n=64 threads=1
+Relative error: 8.036e-04
+Time per run (10 runs): 0.003105 s avg, 0.000076 s stddev
+== n=64 threads=2
+Relative error: 8.036e-04
+Time per run (10 runs): 0.005324 s avg, 0.000072 s stddev
+== n=64 threads=4
+Relative error: 8.036e-04
+Time per run (10 runs): 0.005378 s avg, 0.000121 s stddev
+== n=64 threads=8
+Relative error: 8.036e-04
+Time per run (10 runs): 0.023065 s avg, 0.015053 s stddev
+== n=128 seq
+Relative error: 2.007e-04
+Time per run (10 runs): 0.015356 s avg, 0.000597 s stddev
+== n=128 threads=1
+Relative error: 2.007e-04
+Time per run (10 runs): 0.014371 s avg, 0.001040 s stddev
+== n=128 threads=2
+Relative error: 2.007e-04
+Time per run (10 runs): 0.015026 s avg, 0.000349 s stddev
+== n=128 threads=4
+Relative error: 2.007e-04
+Time per run (10 runs): 0.018564 s avg, 0.000195 s stddev
+== n=128 threads=8
+Relative error: 2.007e-04
+Time per run (10 runs): 0.037842 s avg, 0.018042 s stddev
+== n=256 seq
+Relative error: 2.853e-04
+Time per run (10 runs): 0.057011 s avg, 0.000786 s stddev
+== n=256 threads=1
+Relative error: 2.853e-04
+Time per run (10 runs): 0.068891 s avg, 0.002848 s stddev
+== n=256 threads=2
+Relative error: 2.853e-04
+Time per run (10 runs): 0.052980 s avg, 0.004622 s stddev
+== n=256 threads=4
+Relative error: 2.853e-04
+Time per run (10 runs): 0.047806 s avg, 0.005037 s stddev
+== n=256 threads=8
+Relative error: 2.853e-04
+Time per run (10 runs): 0.104672 s avg, 0.058667 s stddev
+== n=512 seq
+Relative error: 1.861e-02
+Time per run (10 runs): 0.289354 s avg, 0.013299 s stddev
+== n=512 threads=1
+Relative error: 1.861e-02
+Time per run (10 runs): 0.295937 s avg, 0.023618 s stddev
+== n=512 threads=2
+Relative error: 1.861e-02
+Time per run (10 runs): 0.194426 s avg, 0.007605 s stddev
+== n=512 threads=4
+Relative error: 1.861e-02
+Time per run (10 runs): 0.162583 s avg, 0.009462 s stddev
+== n=512 threads=8
+Relative error: 1.861e-02
+Time per run (10 runs): 0.209044 s avg, 0.069403 s stddev
+== n=1024 seq
+Relative error: 1.384e-01
+Time per run (10 runs): 2.502538 s avg, 0.029400 s stddev
+== n=1024 threads=1
+Relative error: 1.384e-01
+Time per run (10 runs): 2.536904 s avg, 0.139082 s stddev
+== n=1024 threads=2
+Relative error: 1.384e-01
+Time per run (10 runs): 1.556416 s avg, 0.095423 s stddev
+== n=1024 threads=4
+Relative error: 1.384e-01
+Time per run (10 runs): 0.877141 s avg, 0.029145 s stddev
+== n=1024 threads=8
+Relative error: 1.384e-01
+Time per run (10 runs): 1.072961 s avg, 0.125347 s stddev
